@@ -1,0 +1,97 @@
+/* Allgemeines Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background.jpg'); /* Hier dein Bild einfügen */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Header */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.7);
+}
+.hero .btn {
+    background: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.hero .btn:hover {
+    background: #e68a00;
+}
+
+/* Produkte */
+.products {
+    text-align: center;
+    padding: 50px;
+}
+.product {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn {
+    display: inline-block;
+    background: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: #e68a00;
+}
+
+/* Kontakt */
+.contact {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+.contact a {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: black;
+}
